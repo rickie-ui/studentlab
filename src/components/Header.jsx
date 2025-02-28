@@ -10,6 +10,7 @@ import {
   Bars3Icon,
   XMarkIcon,
 } from '@heroicons/react/24/outline'
+import Logo from '@/assets/logo.png';
 
 
 export default function Header() {
@@ -23,7 +24,7 @@ export default function Header() {
             <span className="sr-only">Studentlab</span>
             <img
               alt=""
-              src="/assets/logo.png"
+              src={Logo}
               className="h-12 w-auto"
             />
           </a>
@@ -61,7 +62,7 @@ export default function Header() {
               <span className="sr-only">Studentlab</span>
               <img
                 alt=""
-                src="/assets/logo.png"
+                src={Logo}
                 className="h-12 w-auto"
               />
             </a>

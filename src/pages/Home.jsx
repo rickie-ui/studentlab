@@ -5,7 +5,7 @@ return (
 <div className="overflow-x-hidden bg-gray-50">
     <section className="bg-gray-50">
     <Header/>
-        <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+        <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8" id="home">
             <div className="max-w-2xl mx-auto text-center">
                 <h1 className="px-6 text-lg text-gray-600 font-inter">Don’t let coding challenges hold you back.</h1>
                 <p className="mt-5 text-4xl font-bold leading-tight text-gray-900 sm:leading-tight sm:text-5xl lg:text-6xl lg:leading-tight font-pj">
@@ -50,7 +50,7 @@ return (
             </div>
         </div>
 
-        <div className="pb-12 bg-white">
+        <div className="pb-12 bg-white" id="project">
             <div className="relative">
                 <div className="absolute inset-0 h-2/3 bg-gray-50"></div>
                 <div className="relative mx-auto">

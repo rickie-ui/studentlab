@@ -17,14 +17,14 @@ export default function Header() {
 
   return (
     <header className="bg-white">
-      <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
+      <nav aria-label="Global" className="mx-auto flex max-w-7xl uppercase items-center justify-between p-6 lg:px-8">
         <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
+          <a href="#home" className="-m-1.5 p-1.5">
             <span className="sr-only">Studentlab</span>
             <img
               alt=""
-              src="https://tailwindui.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
-              className="h-8 w-auto"
+              src="/src/assets/logo.png"
+              className="h-12 w-auto"
             />
           </a>
         </div>
@@ -38,17 +38,17 @@ export default function Header() {
             <Bars3Icon aria-hidden="true" className="size-6" />
           </button>
         </div>
-        <PopoverGroup className="hidden lg:flex lg:gap-x-12">
-          <a href="#" className="text-sm/6 font-semibold text-gray-900">
+        <PopoverGroup className="hidden lg:flex lg:gap-x-12 ">
+          <a href="#home" className="text-sm/6 font-semibold hover:text-gray-500 duration-150 text-gray-900">
             Home
           </a>
-          <a href="#" className="text-sm/6 font-semibold text-gray-900">
+          <a href="#project" className="text-sm/6 font-semibold hover:text-gray-500 duration-150 text-gray-900">
             Projects
           </a>
-          <a href="#" className="text-sm/6 font-semibold text-gray-900">
+          <a href="#contact" className="text-sm/6 font-semibold hover:text-gray-500 duration-150 text-gray-900">
             Contact us
           </a>
-          <a href="#" className="text-sm/6 font-semibold text-gray-900">
+          <a href="#faq" className="text-sm/6 font-semibold hover:text-gray-500 duration-150 text-gray-900">
             FAQ
           </a>
         </PopoverGroup>
@@ -61,8 +61,8 @@ export default function Header() {
               <span className="sr-only">Studentlab</span>
               <img
                 alt=""
-                src="https://tailwindui.com/plus-assets/img/logos/mark.svg?color=indigo&shade=600"
-                className="h-8 w-auto"
+                src="/src/assets/logo.png"
+                className="h-12 w-auto"
               />
             </a>
             <button
@@ -78,25 +78,25 @@ export default function Header() {
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
                 <a
-                  href="#"
+                  href="#home"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
                   Home
                 </a>
                 <a
-                  href="#"
+                  href="#project"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
                   Projects
                 </a>
                 <a
-                  href="#"
+                  href="#contact"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
                   Contact us
                 </a>
                 <a
-                  href="#"
+                  href="#faq"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50"
                 >
                   FAQ

@@ -23,7 +23,7 @@ export default function Header() {
             <span className="sr-only">Studentlab</span>
             <img
               alt=""
-              src="/src/assets/logo.png"
+              src="/assets/logo.png"
               className="h-12 w-auto"
             />
           </a>
@@ -61,7 +61,7 @@ export default function Header() {
               <span className="sr-only">Studentlab</span>
               <img
                 alt=""
-                src="/src/assets/logo.png"
+                src="/assets/logo.png"
                 className="h-12 w-auto"
               />
             </a>
